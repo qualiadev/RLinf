@@ -32,7 +32,7 @@ dependencies = [
     # Core System
     # These are the dependencies of the core scheduler
     "ray[default]>=2.47.0",
-    "torch>=2.5.0,<=2.9.0",
+    "torch>=2.5.0,<3",
     "hydra-core",
     "numpy",
 
